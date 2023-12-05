@@ -3,6 +3,7 @@
   overflow: hidden;
   background-size: cover;
   background-attachment: fixed;
+  font-weight: 200;
 }
 .scene header {
   color: white;
@@ -17,4 +18,14 @@
 .scene header h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.scene header h1:after {
+  content: "";
+  border-bottom: 1px solid white;
+  width: 8rem;
+  display: block;
+  margin: 0 auto; /* 가운데 정렬하는 정통적인 방법 */
+  margin-top: 1rem;
 }
